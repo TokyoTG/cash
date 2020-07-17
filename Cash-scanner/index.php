@@ -17,7 +17,7 @@
          if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
          $emailErr = "Invalid Email";
      }elseif(!empty($_POST['email']) && filter_var($email, FILTER_VALIDATE_EMAIL)){
-          $sql = "INSERT INTO email (`email`) VALUES ('$email')";
+          $sql = "INSERT INTO email (email) VALUES ('$email')";
  if ( $conn->query($sql)){
      // echo "New record created successfully";
      $emailsuc = "You'll be notified shortly :)";
