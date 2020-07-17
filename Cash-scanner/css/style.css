@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    font-family: Poppins;
+    background-size: cover;
+}
+.a{
+    background-color:#219653 ;
+    border-radius: 10px;
+}
+.b{
+    font-size: 50px;
+    font-family: Poppins;
+    color:#219653 ;
+
+}
+.page1{
+    background-color:rgba(155, 214, 225, 0.2);
+    padding: 15%;
+    background-size: cover;
+}
+.letter1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 75px;
+    line-height: 96px;
+    color: #333333;
+}
+.letter2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #219653;
+}
+.letter3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+
+}
+#email{
+    background-color: #FFF8F8;
+    margin-right: -5%;
+
+}
+#sub, #sub2{
+    background-color: #27AE60;
+}
+.img1{
+    width: 100%;
+    margin-top: -22%;
+}
+.right{
+    margin-left: 6%;
+}
+.left{
+    margin-left: -6%;
+}
+.img2{
+    width: 7%;
+    margin-left: -9%;
+    margin-top: 4%;
+    margin-right: -2%;
+}
+
+
+
+/*   Features session*/
+
+.features{
+    background-color: #219653;
+    margin-top: 3%;
+}
+.header{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    color: #DFEDF1;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 8%;
+}
+
+/*explaining fearures*/
+.img4{
+    margin-left: -6%;
+}
+.letter5{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+   font-size: 32px;
+    line-height: 54px;
+    color: #DFEDF1;
+    margin-top: 25%;
+}
+.row1{
+    padding-bottom: 13%;
+}
+
+/*left hand side*/
+
+.first{
+    padding-left: 10%;
+}
+.img3{
+    margin-left: 28%;
+}
+.img5{
+    margin-left: 0%;
+    width: 100%;
+}
+
+/*right hand side*/
+.img7{
+    margin-left: -3%;
+    margin-right: -5%;
+}
+.letter6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 54px;
+    color: #DFEDF1;
+    margin-top: 25%;
+}
+.letter7{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 54px;
+    color: #DFEDF1;
+    margin-top: 10%;
+}
+
+/*SCREENSHOTS  Session*/
+
+.header2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    color: #000000;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 10%;
+}
+.page3{
+    background-color:rgba(155, 214, 225, 0.2);
+    margin: 2%;
+}   
+.img8{
+    width: 130%;
+    margin-left: -30%;
+} 
+.img9{
+    width: 105%;
+}
+.img10{
+    width: 100%;
+    margin-left: -15%;
+    margin-top: 10%;
+}
+
+/*-------Coming soon session---------*/
+.letter8{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    color: #219653;
+}
+.img11{
+    width: 6%;
+    margin-left: -7%;
+    margin-top: 4%;
+    margin-right: -1%;
+}
+#email2{
+    background-color: #FFF8F8;
+    margin-right: -1%;
+    width: 20%;
+}
+.page4{
+    padding-left: 10%;
+    padding-top: 12%;
+}
+.form2{
+    width: 650px;
+}
+.img12{
+    width: 100%;
+}
+.img13{
+    margin-left: 50%;
+    margin-top: -25%;
+    height: 400px;
+    width: 600px;
+}
+
+/**footer  session*/
+.foot{
+    background-color: #1D1D1D;
+    padding: 4% 0%;
+    text-align: center;
+}
+.footer-pic{
+    padding: 1%;
+}
+.fooer{
+    color: white;
+}
+.footer-pic2{
+    width: 10px;
+}
+.footer-pic3{
+    width: 35px;
+    background-color: #DCE2E2;
+    margin-right: 2%;
+}
+
+@media screen and (max-width:1024px){   
+    .letter1{
+        font-size: 54px;
+        line-height: 36px;
+
+    }
+    .page1{
+        margin-left: -3%;
+    }
+    .letter2{
+        font-size: 40px;
+    }
+    .letter3{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .right{
+        margin-top: 7%;
+    }
+    .img1{
+        width: 100%;
+        margin-top: -20%;
+        margin-left: 5%;
+        height: 650px;
+    }
+    #email{
+        margin-top: 10%;
+        width: 70%;
+    }
+    #sub, #sub2{
+        margin-top: 10%;
+    }
+    .img2{
+        width: 12%;
+        margin-left: -14%;
+        margin-top: 8%;
+        margin-right: -2%;
+    }
+    .header, .header2{
+        font-size: 60px;
+
+    }    
+    .letter5, .letter6, .letter7{
+        font-size: 27px;
+    }
+    .img4{
+        margin-left: -7%;
+    }
+    #email2{
+        width: 20%;
+    }
+    .form2{
+        width: 550px;
+    }
+    .img11{
+        width: 8%;
+        margin-left: -9.5%;
+        margin-top: 5%;
+        margin-right: -1%;
+    }
+    .img13{
+        margin-left: 52%;
+        margin-top: -25%;
+        height: 280px;
+        width: 400px;
+    }
+
+}    
+
+@media screen and (max-width:768px){   
+     .letter1{
+        font-size: 45px;
+    }
+    .letter2{
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .letter3{
+        font-size: 18px;
+    }
+    .right{
+        margin-top: 9%;
+    }
+    .img1{
+        width: 90%;
+        margin-top: -16%;
+        margin-left: 15%;
+        height: 500px;
+    }
+    #email{
+        width: 60%;
+    }
+
+    .header, .header2{
+        font-size: 50px;
+    }    
+    .letter5, .letter6, .letter7{
+        font-size: 18px;
+        line-height: 34px;
+    }
+    .img4{
+        margin-left: -10%;
+    }
+    .form2{
+        width: 450px;
+    }
+    .img11{
+        width: 8%;
+        margin-left: -10%;
+        margin-top: 5%;
+        margin-right: -1%;
+    }
+    .letter8{
+        font-size: 54px;
+    }
+    .img13{
+        margin-left: 50%;
+        height: 218px;
+        width: 330px;
+    }
+    .footer-pic{
+        padding: 1%;
+        width: 30px;
+    }
+    .footer-pic2{
+        width: 7px;
+    }
+    .footer-pic3{
+        width: 35px;
+        background-color: #DCE2E2;
+    }
+    #sub, #sub2{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:425px){   
+    .letter1{
+       font-size: 45px;
+   }
+   .letter2{
+       font-size: 26px;
+       width: 300px;
+   }
+   .letter3{
+       font-size: 16px;
+       width: 300px;
+       margin-top: -5%;
+   }
+   #email{
+    width: 50%;
+}
+.form1{
+    width: 400px;
+}
+.img1{
+    width: 145%;
+    margin-top: 150%;
+    margin-right: 20%;
+    margin-left: -65%;
+    height: 400px;
+}
+.img2{
+    margin-left: -12%;
+}
+
+
+.header, .header2{
+    font-size: 40px;
+}    
+.letter5, .letter6, .letter7{
+    font-size: 11px;
+    line-height: 15px;
+    width: 140px;
+    margin-top: 30%;
+
+}
+.img4{
+    margin-left: -9%;
+    width: 8%;
+}
+.img3{
+    margin-left: 26%;
+    width: 12%;
+}
+.img6{
+    width: 10%;
+}
+.img7{
+    width: 20%;
+}
+.img5{
+    height: 270px;
+    width: 110%;
+}
+.first {
+    margin-top: 6%;
+}
+.second{
+    margin-top: 5%;
+}
+.arrow{
+    margin-top: -25%;
+}
+.img8{
+    width: 105%;
+    margin-left: -21%;
+} 
+.img9{
+    width: 90%;
+    margin-left: 3.5%;
+    margin-top: 10%;
+}
+.img10{
+    width: 80%;
+    margin-left: 0%;
+    margin-top: 1%;
+}
+
+
+.form2{
+    width: 350px;
+}
+.img11{
+    width: 8%;
+    margin-left: -10%;
+    margin-top: 5%;
+    margin-right: -1%;
+}
+.letter8{
+    font-size: 30px;
+    line-height: 30px;
+}
+.img13{
+    margin-left: 50%;
+    height: 118px;
+    width: 180px;
+}
+#sub{
+    font-size: 13px;
+    width: 20%;
+    padding: 2%;
+}
+.footer-pic{
+    padding: 1%;
+    width: 20px;
+}
+.footer-pic2{
+    width: 5px;
+}
+.footer-pic3{
+    width: 25px;
+    background-color: #DCE2E2;
+}
+.fooer{
+    font-size: 10px;
+}
+}
+
+@media screen and (max-width:375px){   
+    .letter1{
+        font-size: 42px;
+        width: 200px;
+    }
+    .letter2{
+        font-size: 25px;
+        width: 250px;
+    }
+    .letter3{
+        font-size: 15px;
+        width: 300px;
+        margin-top: -5%;
+    }
+    #email{
+     width: 60%;
+ }
+ #sub{
+     font-size: 11px;
+     width: 25%;
+     padding: 3.5%;
+ }
+ .form1{
+     width: 280px;
+ }
+ .img1{
+     width: 145%;
+     margin-top: 165%;
+     margin-right: 20%;
+     margin-left: -65%;
+     height: 400px;
+ }
+ .img2{
+    margin-left: -13.5%;
+}
+ .img5{
+    height: 250px;
+    width: 120%;
+}
+.header, .header2{
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+.first{
+    margin-left: -5%;
+}
+
+
+.form2{
+    width: 250px;
+}
+.img11{
+    width: 8%;
+    margin-left: -10%;
+    margin-top: 5%;
+    margin-right: -1%;
+}
+.letter8{
+    font-size: 26px;
+    line-height: 30px;
+}
+.img13{
+    margin-left: 50%;
+    height: 99px;
+    width: 160px;
+    margin-top: -27%;
+}
+
+
+}
+
+@media screen and (max-width:320px){   
+    .letter1{
+        font-size: 32px;
+    }
+    .letter2{
+        font-size: 20px;
+        width: 250px;
+    }
+    .letter3{
+        font-size: 12px;
+        width: 250px;
+        margin-top: -5%;
+    }
+    #email{
+     width: 40%;
+     margin-top: 1%;
+ }
+    #sub{
+        width: 20%;
+        font-size: 12px;
+        margin-top: 1%;
+        padding: 2%;
+
+    }
+    #sub2{
+        font-size: 13px;
+        margin-top: 1%;
+        
+    }
+ .form1{
+     width: 400px;
+ }
+ .img4{
+    margin-left: -10%;
+ }  
+ .img1{
+     width: 145%;
+     margin-top: 165%;
+     margin-right: 20%;
+     margin-left: -65%;
+     height: 400px;
+ }
+ .img5{
+    height: 210px;
+    width: 130%;
+}
+.header, .header2{
+    font-size: 28px;
+}
+.img4{
+    margin-left: -5%;
+    width: 5%;
+}
+.img3{
+    margin-left: 26%;
+    width: 6%;
+}
+.img6{
+    width: 5%;
+}
+.img7{
+    width: 12%;
+}
+.letter5, .letter6, .letter7{
+    font-size: 10px;
+}
+
+.form2{
+    width: 350px;
+}
+.img11{
+    width: 9%;
+    margin-left: -12%;
+    margin-top: 5%;
+    margin-right: -1%;
+}
+.letter8{
+    font-size: 26px;
+    line-height: 30px;
+}
+.img13{
+    margin-left: 50%;
+    height: 95px;
+    width: 140px;
+    margin-top: -26%;
+}
+.img2{
+    width: 12%;
+    padding-left: 2%;
+
+}
+.footer-pic{
+    padding: 1%;
+    width: 18px;
+}
+.footer-pic2{
+    width: 4px;
+}
+.footer-pic3{
+    width: 20px;
+    background-color: #DCE2E2;
+}
+.fooer{
+    font-size: 7px;
+}
+}
