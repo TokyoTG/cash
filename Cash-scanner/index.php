@@ -5,8 +5,7 @@
  $emailErr = "";
  $emailsuc = "";
 
- $sql= "CEATE TABLE email (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, email VARCHAR(50),)";
- $conn->query($sql);
+
  if(isset($_POST['submit'])){
  
  
@@ -19,7 +18,7 @@
          $emailErr = "Invalid Email";
      }elseif(!empty($_POST['email']) && filter_var($email, FILTER_VALIDATE_EMAIL)){
           $sql = "INSERT INTO email (`email`) VALUES ('$email')";
- if (mysqli_query($conn, $sql)){
+ if ( $conn->query($sql)){
      // echo "New record created successfully";
      $emailsuc = "You'll be notified shortly :)";
  }else{
@@ -32,6 +31,8 @@
      }
     
  }
+
+
  
  ?>
  
