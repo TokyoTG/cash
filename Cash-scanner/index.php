@@ -1,40 +1,11 @@
 
 <?php
- include 'includes/dbh.inc.php';
- $email = "";
- $emailErr = "";
- $emailsuc = "";
 
+$email = isset($_SESSION['email']) ? $_SESSION['emails'] : "";
+$emailErr = isset($_SESSION['error']) ? $_SESSION['error'] : "";
+$emailsuc = isset($_SESSION['success'])  ? $_SESSION['success'] : "";
 
- if(isset($_POST['submit'])){
- 
- 
-     $email = $_POST['email'];
- 
-     if (empty($_POST['email'])){
-         $emailErr = "Email is required";
-     }else{
-         if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-         $emailErr = "Invalid Email";
-     }elseif(!empty($_POST['email']) && filter_var($email, FILTER_VALIDATE_EMAIL)){
-          $sql = "INSERT INTO email (email) VALUES ('$email')";
- if ( $conn->query($sql)){
-     // echo "New record created successfully";
-     $emailsuc = "You'll be notified shortly :)";
- }else{
-     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
- }
-     }
-     else{
-         $emailsuc = "Valid Email";
-     }
-     }
-    
- }
-
-
- 
- ?>
+?>
  
  <!DOCTYPE html>
 <html lang="en">
@@ -129,7 +100,7 @@
     <div class="page4">
         <h1 class="letter8 wow animate__fadeInTopRight"  data-wow-duration="2s" data-wow-delay="0s">CO <span><img src="/images/for_jenni_2.png" alt="image" class="img11"></span> MING SOON</h1>
 
-        <form action="index.php" method="POST" class="form2 wow animate__backInLeft"  data-wow-duration="3s" data-wow-delay="0s" >
+        <form action="process.php" method="POST" class="form2 wow animate__backInLeft"  data-wow-duration="3s" data-wow-delay="0s" >
                     <input type="email" id="email" class="btn" placeholder="Email">
                     <button type="submit" class="btn"  id="sub2">Be Notified</button>       
                     
