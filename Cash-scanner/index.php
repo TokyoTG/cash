@@ -33,8 +33,8 @@ $emailsuc = isset($_SESSION['success'])  ? $_SESSION['success'] : "";
                 <h1 class="letter1">COUNTERFEIT</h1>
                 <p class="letter2">MO <span><img src="/images/for_jenni_2.png" alt="image" class="img2"></span> NEY SCANNER</p>
                 <h4 class="letter3">Easy Mobile Money Scanner and<br>Counterfeit detector</h4>
-                <form action="index.php" method="POST" class="form1 wow animate__backInLeft"  data-wow-duration="3s" data-wow-delay="0s" >
-                    <input type="email" id="email" class="btn" placeholder="Email">
+                <form action="process.php" method="POST" class="form1 wow animate__backInLeft"  data-wow-duration="3s" data-wow-delay="0s" >
+                    <input type="email" id="email" name="sub_email" class="btn" placeholder="Email">
                     <button type="submit" class="btn"  id="sub">SUBSCRIBE</button>       
                     
                     <div style="color:red;" class="message mt-3">
@@ -100,8 +100,8 @@ $emailsuc = isset($_SESSION['success'])  ? $_SESSION['success'] : "";
     <div class="page4">
         <h1 class="letter8 wow animate__fadeInTopRight"  data-wow-duration="2s" data-wow-delay="0s">CO <span><img src="/images/for_jenni_2.png" alt="image" class="img11"></span> MING SOON</h1>
 
-        <form action="process.php" method="POST" class="form2 wow animate__backInLeft"  data-wow-duration="3s" data-wow-delay="0s" >
-                    <input type="email" id="email" class="btn" placeholder="Email">
+        <form action="notified.php" method="POST" class="form2 wow animate__backInLeft"  data-wow-duration="3s" data-wow-delay="0s" >
+                    <input type="email" id="email" name="email" class="btn" placeholder="Email">
                     <button type="submit" class="btn"  id="sub2">Be Notified</button>       
                     
                     <div style="color:red;" class="message mt-3">

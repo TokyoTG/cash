@@ -3,10 +3,11 @@
  $email = "";
  $emailErr = "";
  $emailsuc = "";
- if(isset($_POST['sub_email'])){
-     $email = $_POST['sub_email'];
+ print_r($_POST);
+ if(isset($_POST['email'])){
+     $email = $_POST['email'];
   
-     if (empty($_POST['sub_email'])){
+     if (empty($_POST['email'])){
          $_SESSION['error'] = "Email is required";
          header("location:index.php");
          die();
@@ -15,7 +16,7 @@
             $_SESSION['error'] = "Invalid Email";
             header("location:index.php");
             die();
-     }elseif(!empty($_POST['sub_email']) && filter_var($email, FILTER_VALIDATE_EMAIL)){
+     }elseif(!empty($_POST['email']) && filter_var($email, FILTER_VALIDATE_EMAIL)){
           $sql = "INSERT INTO email (email) VALUES ('$email')";
          
  if ( $conn->query($sql)){
